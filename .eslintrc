@@ -1,0 +1,38 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:import/typescript",
+      "plugin:react/recommended",
+      "plugin:import/recommended",
+      "plugin:jsx-a11y/recommended",
+      "plugin:@typescript-eslint/recommended",
+      "eslint-config-prettier"
+    ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      },
+      "import/resolver": {
+        "typescript": {},
+        "node": {
+          "paths": ["src"],
+          "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        }
+      }
+    },
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "arrow-body-style": ["error", "as-needed"],
+      "react/jsx-uses-react": "off",
+      "react/react-in-jsx-scope": "off",
+      "max-len": ["warn", { "code": 80 }],
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "no-shadow":"off"
+    }
+  }
+  

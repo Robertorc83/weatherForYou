@@ -1,0 +1,34 @@
+.card {
+    position: relative;
+    display: block;
+    height: 100%; 
+    overflow: hidden;
+    text-decoration: none;
+    background-color: #e6a72a;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.card:hover {
+    background-color: #da7b86;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        height: 0;
+        padding-bottom: 220%;
+    }
+}
+  
+@media only screen and (max-width: 480px) {
+    .card {
+        height: 20px;
+        width: 60%;
+        padding-bottom: 100%;
+    }
+}
+
+
+
+ 

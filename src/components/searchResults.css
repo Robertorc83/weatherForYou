@@ -1,0 +1,24 @@
+.search_containter_results{
+    background-color: rgb(109, 109, 108);
+    padding: 25px 0 0;
+    margin-left: 20px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+}
+
+.search_result{
+    background-color: rgb(109, 109, 108);
+    text-align: start;
+    padding: 5px 0 5px 25px;
+    margin: 0px 20px;
+    display: block;
+    width: 90%;
+    border:none;
+    border-radius: 10px;
+}
+
+
+.search_result:hover{
+    background-color: rgb(151, 151, 148);
+    cursor: pointer;
+}
